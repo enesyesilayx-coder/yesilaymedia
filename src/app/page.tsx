@@ -93,6 +93,34 @@ export default function Home() {
 
       <div className="divider"></div>
 
+      {/* Logo Carousel - Companies We've Worked With */}
+      <section className="logos-section">
+        <p className="section-title">Companies We&apos;ve Worked With</p>
+        <div className="logo-carousel">
+          <div className="logo-track">
+            <span className="logo-item">Acme Corp</span>
+            <span className="logo-item">GlobalTech</span>
+            <span className="logo-item">Innovate Inc</span>
+            <span className="logo-item">Vertex AI</span>
+            <span className="logo-item">NovaStar</span>
+            <span className="logo-item">Quantum Labs</span>
+            <span className="logo-item">Apex Digital</span>
+            <span className="logo-item">Horizon Media</span>
+            {/* Duplicate set for seamless loop */}
+            <span className="logo-item">Acme Corp</span>
+            <span className="logo-item">GlobalTech</span>
+            <span className="logo-item">Innovate Inc</span>
+            <span className="logo-item">Vertex AI</span>
+            <span className="logo-item">NovaStar</span>
+            <span className="logo-item">Quantum Labs</span>
+            <span className="logo-item">Apex Digital</span>
+            <span className="logo-item">Horizon Media</span>
+          </div>
+        </div>
+      </section>
+
+      <div className="divider"></div>
+
       {/* Contact */}
       <section className="contact" id="contact">
         <h2>Get in Touch</h2>

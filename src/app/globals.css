@@ -276,6 +276,48 @@
       color: #000000;
     }
 
+    /* Logo Carousel */
+    .logos-section {
+      overflow: hidden;
+    }
+
+    .logo-carousel {
+      overflow: hidden;
+      mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+    }
+
+    .logo-track {
+      display: flex;
+      gap: 80px;
+      width: max-content;
+      animation: scroll-left 30s linear infinite;
+    }
+
+    .logo-item {
+      font-size: 20px;
+      font-weight: 600;
+      color: #CCCCCC;
+      white-space: nowrap;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition: color 0.3s;
+      flex-shrink: 0;
+    }
+
+    .logo-item:hover {
+      color: #000000;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
     /* Divider */
     .divider {
       width: 100%;
@@ -341,6 +383,15 @@
 
       .contact a {
         font-size: 24px;
+      }
+
+      .logo-track {
+        gap: 48px;
+        animation-duration: 20s;
+      }
+
+      .logo-item {
+        font-size: 16px;
       }
 
       footer {
