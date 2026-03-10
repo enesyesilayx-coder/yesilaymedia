@@ -93,6 +93,32 @@ export default function Home() {
 
       <div className="divider"></div>
 
+      {/* Logo Carousel - Companies We've Worked With */}
+      <section className="logos-section">
+        <p className="section-title">Companies We&apos;ve Worked With</p>
+        <div className="logo-carousel">
+          <div className="logo-track">
+            <img className="logo-item" src="/logos/apple.svg" alt="Apple" />
+            <img className="logo-item" src="/logos/homeday.svg" alt="Homeday GmbH" />
+            <img className="logo-item" src="/logos/einfach-zum-angebot.svg" alt="Einfach Zum Angebot GmbH" />
+            <img className="logo-item" src="/logos/aroundhome.svg" alt="Aroundhome GmbH" />
+            <img className="logo-item" src="/logos/verivox.svg" alt="Verivox GmbH" />
+            <img className="logo-item" src="/logos/nuernberger.svg" alt="Nürnberger Versicherung" />
+            <img className="logo-item" src="/logos/hanse-merkur.svg" alt="Hanse Merkur Versicherung" />
+            {/* Duplicate set for seamless loop */}
+            <img className="logo-item" src="/logos/apple.svg" alt="Apple" />
+            <img className="logo-item" src="/logos/homeday.svg" alt="Homeday GmbH" />
+            <img className="logo-item" src="/logos/einfach-zum-angebot.svg" alt="Einfach Zum Angebot GmbH" />
+            <img className="logo-item" src="/logos/aroundhome.svg" alt="Aroundhome GmbH" />
+            <img className="logo-item" src="/logos/verivox.svg" alt="Verivox GmbH" />
+            <img className="logo-item" src="/logos/nuernberger.svg" alt="Nürnberger Versicherung" />
+            <img className="logo-item" src="/logos/hanse-merkur.svg" alt="Hanse Merkur Versicherung" />
+          </div>
+        </div>
+      </section>
+
+      <div className="divider"></div>
+
       {/* Contact */}
       <section className="contact" id="contact">
         <h2>Get in Touch</h2>
