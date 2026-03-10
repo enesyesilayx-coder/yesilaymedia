@@ -303,8 +303,9 @@
       display: flex;
       align-items: center;
       gap: 80px;
-      width: fit-content;
-      animation: scroll-left 18s linear infinite;
+      width: max-content;
+      animation: scroll-left 20s linear infinite;
+      --scroll-width: -33.333%;
     }
 
     .logo-item {
@@ -326,7 +327,7 @@
         transform: translateX(0);
       }
       to {
-        transform: translateX(calc(-50% - 40px));
+        transform: translateX(var(--scroll-width));
       }
     }
 
@@ -404,7 +405,7 @@
 
       .logo-track {
         gap: 48px;
-        animation-duration: 12s;
+        animation-duration: 14s;
       }
 
       .logo-item {
