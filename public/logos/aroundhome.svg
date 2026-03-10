@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 40" fill="#000">
+  <circle cx="16" cy="20" r="11" fill="none" stroke="#000" stroke-width="2.5"/>
+  <path d="M11 24v-6l5-4 5 4v6" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="34" y="27" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#000">Aroundhome</text>
+</svg>

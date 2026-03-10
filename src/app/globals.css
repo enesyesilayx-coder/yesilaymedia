@@ -295,18 +295,17 @@
     }
 
     .logo-item {
-      font-size: 20px;
-      font-weight: 600;
-      color: #CCCCCC;
-      white-space: nowrap;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      transition: color 0.3s;
+      height: 32px;
+      width: auto;
+      opacity: 0.35;
+      transition: opacity 0.3s;
       flex-shrink: 0;
+      user-select: none;
+      -webkit-user-drag: none;
     }
 
     .logo-item:hover {
-      color: #000000;
+      opacity: 1;
     }
 
     @keyframes scroll-left {
@@ -391,7 +390,7 @@
       }
 
       .logo-item {
-        font-size: 16px;
+        height: 24px;
       }
 
       footer {

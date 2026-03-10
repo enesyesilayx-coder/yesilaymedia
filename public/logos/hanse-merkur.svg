@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 40" fill="#000">
+  <path d="M8 32V12l8-4 8 4v20" fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 22h16" stroke="#000" stroke-width="2"/>
+  <text x="32" y="27" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#000">Hanse Merkur Versicherung</text>
+</svg>

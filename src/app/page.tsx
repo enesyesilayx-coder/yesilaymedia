@@ -98,23 +98,21 @@ export default function Home() {
         <p className="section-title">Companies We&apos;ve Worked With</p>
         <div className="logo-carousel">
           <div className="logo-track">
-            <span className="logo-item">Acme Corp</span>
-            <span className="logo-item">GlobalTech</span>
-            <span className="logo-item">Innovate Inc</span>
-            <span className="logo-item">Vertex AI</span>
-            <span className="logo-item">NovaStar</span>
-            <span className="logo-item">Quantum Labs</span>
-            <span className="logo-item">Apex Digital</span>
-            <span className="logo-item">Horizon Media</span>
+            <img className="logo-item" src="/logos/apple.svg" alt="Apple" />
+            <img className="logo-item" src="/logos/homeday.svg" alt="Homeday GmbH" />
+            <img className="logo-item" src="/logos/einfach-zum-angebot.svg" alt="Einfach Zum Angebot GmbH" />
+            <img className="logo-item" src="/logos/aroundhome.svg" alt="Aroundhome GmbH" />
+            <img className="logo-item" src="/logos/verivox.svg" alt="Verivox GmbH" />
+            <img className="logo-item" src="/logos/nuernberger.svg" alt="Nürnberger Versicherung" />
+            <img className="logo-item" src="/logos/hanse-merkur.svg" alt="Hanse Merkur Versicherung" />
             {/* Duplicate set for seamless loop */}
-            <span className="logo-item">Acme Corp</span>
-            <span className="logo-item">GlobalTech</span>
-            <span className="logo-item">Innovate Inc</span>
-            <span className="logo-item">Vertex AI</span>
-            <span className="logo-item">NovaStar</span>
-            <span className="logo-item">Quantum Labs</span>
-            <span className="logo-item">Apex Digital</span>
-            <span className="logo-item">Horizon Media</span>
+            <img className="logo-item" src="/logos/apple.svg" alt="Apple" />
+            <img className="logo-item" src="/logos/homeday.svg" alt="Homeday GmbH" />
+            <img className="logo-item" src="/logos/einfach-zum-angebot.svg" alt="Einfach Zum Angebot GmbH" />
+            <img className="logo-item" src="/logos/aroundhome.svg" alt="Aroundhome GmbH" />
+            <img className="logo-item" src="/logos/verivox.svg" alt="Verivox GmbH" />
+            <img className="logo-item" src="/logos/nuernberger.svg" alt="Nürnberger Versicherung" />
+            <img className="logo-item" src="/logos/hanse-merkur.svg" alt="Hanse Merkur Versicherung" />
           </div>
         </div>
       </section>
